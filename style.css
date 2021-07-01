@@ -1,0 +1,260 @@
+*{
+  font-family:'lora';
+}
+
+
+body{
+  background: #141224;
+}
+
+nav ul{
+  height: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+nav li{
+  display: inline-flex;
+  padding: 5px 50px;
+  text-align: center;
+}
+
+nav a{
+  color: #FFFFFF;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  transition: top ease 1s;
+}
+
+nav a:hover{
+  color: #FF92B2;
+  top: -10px;
+}
+
+#intro{
+  display: flex;
+  justify-content: center;
+}
+
+#intro-text{
+  text-align: center;
+  margin-right: 20px;
+  width: 500px;
+  padding-left: 10px;
+}
+
+.title{
+  display: block;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.type-title{
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 1em auto;
+  letter-spacing: .10em;
+  animation: typing 3s steps(50, end), blink-caret .5s step-end forwards;
+}
+
+@keyframes typing{
+  from {width: 0} to {width: 100%}
+}
+
+@keyframes blink-caret{
+  from, to {border-color: transparent}
+  50% {border-color: white;}
+}
+
+#intro-text p{
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+#girl-img{
+  width: 400px;
+  height: 400px;
+  margin: 0px 10px;
+}
+
+hr{
+  background-color:#FF92B2;
+  opacity: 0.5;
+  border: none;
+  margin: 0px;
+  width: 100%;
+  height: 1px;
+}
+
+
+#jobs{
+  display: flex;
+  justify-content: center;
+}
+
+.job{
+  color: #FFFFFF;
+  width: 1000px;
+  padding: 0px 5px;
+}
+
+
+.job h2{
+  text-align: center;
+  font-size: 17px;
+  padding: 0px;
+}
+
+.job p{
+  text-align: center;
+  font-size: 14px;
+  text-size-adjust: none;
+}
+
+.job a{
+  color: #FFFFFF;  
+  text-decoration: none;
+}
+
+.job a:hover{
+  color: #FF92B2;
+}
+
+#cards{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  display: block;
+  background-color: #141224;
+  border: 2px solid #FF92B2;
+  border-radius: 10px;
+  padding: 5px 10px 12px 10px;
+  width: 200px;
+}
+
+.card-header{
+  display: inline-flex;
+}
+
+.card-header h2{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+}
+
+.card p{
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+}
+
+.card-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-button button{
+  background-color: #141224;
+  border: 2px solid #FF92B2;
+  border-radius: 5px;
+}
+
+.card-button a{
+  color: #FF92B2;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#bot-img{
+  margin-top: 0px;
+  width: 70px;
+  height: 70px;
+}
+
+#contact i{
+  color: #FFFFFF;
+}
+
+#contact p{
+  color: #FFFFFF;
+  font-size: 17px;
+  text-align: center;
+}
+
+#social-links ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#social-links li{
+  display: inline-flex;
+  padding: 10px 30px 0px 30px;
+}
+
+#social-links a{
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  transition: top ease 1s;
+}
+
+#social-links a:hover{
+  top: -10px;
+}
+
+#social-links .bi {
+  color: #FFFFFF;
+  font-size: 40px;
+}
+
+#social-links .bi:hover{
+  color: #FF92B2;
+}
+
+#copyright{
+  color: #FFFFFF;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+/*
+@media only screen and (max-width: 900px){
+
+  #intro{
+    display: block;
+  }
+
+  #intro-text{
+    width: 100%;
+  }
+
+  #intro-img{
+    width: 100%;
+  }
+
+  nav ul{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  nav li{
+    padding: 5px 20px;
+    text-align: center;
+  }
+
+}
+*/
